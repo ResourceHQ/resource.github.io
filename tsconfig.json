@@ -1,0 +1,7 @@
+{
+  "extends": "@astrojs/site-kit/typescript",
+  "compilerOptions": {
+    "skipLibCheck": true
+  },
+  "exclude": ["node_modules", "dist", ".vercel"]
+}

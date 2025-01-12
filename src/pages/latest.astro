@@ -1,0 +1,8 @@
+---
+import { getCategorizedExamples } from '../data/examples.js';
+import Layout from '../layouts/Base.astro';
+
+const examples = await getCategorizedExamples();
+---
+
+<Layout examples={examples} basePath="/latest" />
